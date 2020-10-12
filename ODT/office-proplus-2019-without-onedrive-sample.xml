@@ -1,0 +1,28 @@
+<Configuration ID="5a954385-0ee9-4669-b719-01977e82d080">
+  <Info Description="- Office 2019 ProPlus x64 Spanish (+ corrección CAT, ENG, FRA)&#xA;- Volume License (MAK)&#xA;- Sin OneDrive&#xA;- Sin Skype" />
+  <Add OfficeClientEdition="64" Channel="PerpetualVL2019" ForceUpgrade="TRUE">
+    <Product ID="ProPlus2019Volume" PIDKEY="NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP">
+      <Language ID="es-es" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+    </Product>
+    <Product ID="ProofingTools">
+      <Language ID="ca-es" />
+      <Language ID="en-us" />
+      <Language ID="fr-fr" />
+    </Product>
+  </Add>
+  <Property Name="SharedComputerLicensing" Value="0" />
+  <Property Name="PinIconsToTaskbar" Value="FALSE" />
+  <Property Name="SCLCacheOverride" Value="0" />
+  <Property Name="AUTOACTIVATE" Value="1" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="FALSE" />
+  <Property Name="DeviceBasedLicensing" Value="0" />
+  <Updates Enabled="TRUE" />
+  <RemoveMSI />
+  <AppSettings>
+    <Setup Name="Company" Value="UPC BarcelonaTech" />
+  </AppSettings>
+  <Display Level="Full" AcceptEULA="TRUE" />
+</Configuration>
