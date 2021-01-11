@@ -26,7 +26,7 @@ setup.exe
 
 ## Archivos XML de configuración
 
-Se puede utilizar [Office Customization Tool](https://config.office.com/) (OCT) desde **Microsoft 365 Apps Admin Center** para crear la configuración deseada en cada entorno y descargar el archivo XML correspondiente.
+Se puede utilizar [Office Customization Tool](https://config.office.com/) (OCT) desde **Microsoft 365 Apps Admin Center** para [crear la configuración](https://docs.microsoft.com/en-us/deployoffice/overview-of-the-office-customization-tool-for-click-to-run) deseada en cada entorno y descargar el archivo XML correspondiente.
 
 Por ejemplo, el siguiente archivo XML de configuración `office-proplus-2019-without-onedrive-sample.xml`:
 
